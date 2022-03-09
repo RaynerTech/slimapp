@@ -88,7 +88,7 @@ $app->post('/usuarios/adiciona', function($request, Response $response){
     $nome = $post['nome'];
     $email = $post['email'];
 
-    return $response->getBody()->write($nome . "-" . $email);
+    return $response->getBody()->write($nome . "-" . $Email);
     
 });
 
